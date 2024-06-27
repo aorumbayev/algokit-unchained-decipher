@@ -7,15 +7,18 @@ path = ".algokit/generators/create_contract"
 
 [project]
 type = 'contract'
-name = 'algokit-unchained-decipher'
+name = 'algokit-unchained-contracts'
 artifacts = 'smart_contracts/artifacts'
 
 [project.deploy]
 command = "poetry run python -m smart_contracts deploy"
-environment_secrets = [
-  "DEPLOYER_MNEMONIC",
-  "DISPENSER_MNEMONIC",
-]
+environment_secrets = ["DEPLOYER_MNEMONIC", "DISPENSER_MNEMONIC"]
+
+[project.deploy.testnet]
+environment_secrets = ["DEPLOYER_MNEMONIC"]
+
+[project.deploy.mainnet]
+environment_secrets = ["DEPLOYER_MNEMONIC"]
 
 [project.deploy.localnet]
 environment_secrets = []
@@ -34,7 +37,7 @@ audit = { commands = [
 ], description = 'Audit with pip-audit' }
 lint = { commands = [
   'poetry run black --check .',
-  'poetry run ruff .',
+  'poetry run ruff check .',
   'poetry run mypy',
 ], description = 'Perform linting' }
 audit-teal = { commands = [

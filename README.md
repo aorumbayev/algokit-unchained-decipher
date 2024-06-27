@@ -1,4 +1,10 @@
-# algokit-unchained-decipher
+# [algokit] - Unchained workshop, Decipher 2024
+
+<div align="center">
+<a href="https://github.com/aorumbayev/algokit-unchained-decipher"><img src="https://ipfs.algonode.xyz/ipfs/QmS9jUqqreZC7Mt69b7sfumWgEtAsDeU5QuBDeEQbzmEtR" width=60%></a>
+</div>
+
+---
 
 Welcome to your new AlgoKit project!
 

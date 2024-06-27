@@ -3,8 +3,8 @@ _commit: 1.0.11
 _src_path: gh:algorandfoundation/algokit-python-template
 author_email: altynbek.orumbayev@makerx.com.au
 author_name: Altynbek Orumbayev
-contract_name: proof_of_attendance
+contract_name: poa
 deployment_language: python
 preset_name: production
-project_name: algokit-unchained-decipher
+project_name: algokit-unchained-contracts
 

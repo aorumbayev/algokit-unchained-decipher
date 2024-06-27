@@ -5,8 +5,8 @@
       "name": "ROOT"
     },
     {
-      "path": "projects/algokit-unchained-decipher"
-    }
+      "path": "./projects/algokit-unchained-contracts"
+    },
   ],
   "settings": {
     "files.exclude": {

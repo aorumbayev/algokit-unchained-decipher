@@ -1,0 +1,7 @@
+#pragma version 10
+
+smart_contracts.poa.contract.ProofOfAttendance.clear_state_program:
+    // smart_contracts/poa/contract.py:4
+    // class ProofOfAttendance(algopy.ARC4Contract):
+    int 1
+    return
